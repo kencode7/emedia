@@ -1,0 +1,50 @@
+
+.category{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.strip{
+    background: rgb(255,173,0);
+    width: 95%; 
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.more{
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+.pImg{
+    width: inherit;
+    height: 160px;
+    border-radius: 6px;
+}
+
+.productOwner{
+    font-size: 14px;
+    color: rgb(122, 120, 120);
+    font-weight: bold;
+}
+
+.productPrice{
+    color: rgb(255,173,0);
+}
+
+.itemName{
+    font-size: 18px;
+    color: rgb(255,173,0);
+    font-weight: bold;
+}
+
+@media(max-width: 425px){
+    .category{
+        font-size: 20px;
+        cursor: pointer;
+    }
+}

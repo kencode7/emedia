@@ -1,0 +1,46 @@
+.logo{
+    font-size: 30px
+}
+.slogan{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1vh 2vw;
+}
+
+.subtext{
+    width: 50%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.signUpBtn{
+    color: yellow;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30%;
+}
+
+.signUpBtn:hover{
+    background: yellow;
+    color: #343a40;
+    border: none;
+}
+
+.socials{
+    color: yellow;
+    font-size: 26px;
+
+}
+
+@media(max-width: 425px){
+    .slogan{
+        font-size: 28px;
+    }
+    .subtext{
+        width: 90%;
+    }
+}

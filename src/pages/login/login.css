@@ -1,0 +1,38 @@
+
+
+.login{
+    border: 2px solid yellow;
+    margin-top: 10%;
+    border-radius: 6px;
+    padding: 2vh 2vw;
+    width: 50%;
+   
+}
+
+
+.bag{
+    font-size: 24px;
+    color: yellow;
+    animation: glow 4s 1s infinite alternate;
+}
+
+.loginTxt{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@keyframes glow{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.3;
+    }
+}
+
+
+@media(max-width: 425px){
+    .login{
+        width: 90%
+    }
+}

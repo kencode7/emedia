@@ -1,0 +1,38 @@
+.tabs{
+    width: 60%
+}
+
+.tabs a{
+    color: yellow;
+    font-weight: 600; 
+}
+
+.bigLogo{
+    font-size: 100px;
+    color: yellow;
+    animation: bagSwing 4s 0s infinite alternate;
+}
+
+
+@keyframes bagSwing{
+    
+    0%{
+        transform: rotate(15deg);
+    }
+    
+    100%{
+        transform: rotate(-15deg);
+    }
+   
+}
+
+@media(max-width: 425px){
+    .tabs{
+        width: 100%;
+    }
+
+    .bigLogo{
+        font-size: 60px;
+    }
+}
+

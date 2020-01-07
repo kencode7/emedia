@@ -1,0 +1,25 @@
+.cartItemImg {
+  width: 10.980966325036603vw;
+  height: 10.980966325036603vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.cartItem {
+  font-size: 18px;
+  color: yellow;
+  font-weight: 500;
+}
+
+.checkOutCard {
+  color: #343a40;
+  background: rgb(240, 240, 29);
+  width: 100%;
+  height: 70vh;
+  border-radius: 5px;
+}
+.orderSum {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

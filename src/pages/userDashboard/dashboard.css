@@ -1,0 +1,43 @@
+.userImg{
+    border: 2px solid yellow;
+    border-radius: 4px;
+    overflow: hidden;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.details{
+    color: white;
+    font-size: 18px;
+}
+
+.username{
+    margin-top: 4vh;
+    color: yellow;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.tab{
+    color: white;
+    font-size: 17px;
+}
+.tab:hover{
+    border-bottom: 0.5px solid white;
+}
+
+.stab{
+    color: yellow;
+    font-size: 17px;
+    font-weight: 400;
+    border-bottom: 1px solid yellow;
+}
+
+.listImg{
+    width: 150px;
+    height: 150px;
+    object-fit:fill;
+    overflow: hidden;
+}

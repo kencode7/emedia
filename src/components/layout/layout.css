@@ -1,0 +1,9 @@
+.cartCount {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  background: #fff;
+  border-radius: 3px;
+  color: rgb(255,173,0);
+  margin-left: 0.3vw;
+  padding: 0.2vh 0.2vw;
+}
