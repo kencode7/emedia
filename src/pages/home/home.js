@@ -5,7 +5,11 @@ import p1 from "../../assets/images/product.jfif";
 import p2 from "../../assets/images/product1.jfif";
 import p3 from "../../assets/images/product2.jfif";
 import p4 from "../../assets/images/product3.jfif";
+import view from "../../assets/images/view.jpg";
+
 import Catalog from "../../pages/catalog/catalog";
+
+
 const Home = props => {
   console.log("props", props);
   const GotoSignUp = () => {
@@ -13,18 +17,19 @@ const Home = props => {
   };
   return (
     <div>
-      <div className="text-center" style={{ color: "white" }}>
-        <h2 className="slogan">Shopping just got Zuper Eazy</h2>
+      <div className='landingView' >
+      <div className="text-center" style={{ color: "#ffffff" }}>
+        <h2 className="slogan">To Territorially Dominate, You need Speed</h2>
         <p className="subtext mx-auto">
-          Shopping at the lowest price you can get
+          To Maintain Speed, You need <b>GOD'S WORD</b>
         </p>
       </div>
       {/* <Link to='/signup'> */}
       <div className="text-center mt-4" onClick={GotoSignUp}>
-        <button className="btn signUpBtn">Join now</button>
+        <button className="btn signUpBtn">Subscribe now</button>
       </div>
       {/* </Link> */}
-
+      </div>
       <div>
         <Catalog />
       </div>
